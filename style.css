@@ -1,0 +1,114 @@
+/* Universal Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Utilities */
+
+@font-face {
+    font-family: "SofiaProBlack";
+    src: url(./assets/fonts/SofiaSans-VariableFont_wght.ttf);
+}
+
+body, p{
+    font-family: "SofiaProBlack";
+}
+
+/* styling header and navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 100%;
+    margin: 0px auto;
+    background-color: #0065c3;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+/* navbar logo */
+.pepsilogo img {
+    height: 60px;
+    margin: 15px 38px;
+}
+
+/* Styling for the navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 38px;
+}
+
+.nav-links li:first-child {
+    margin-left: 0;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.nav-links li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-links .buyproducts{
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    margin-left: 556px;
+}
+
+/* banner styling */
+
+.betterwithpepsi{
+    display: flex;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #265cc5;
+    height: 80vh;
+    width: 35%;
+}
+
+.caption{
+    background-color: #1437bf;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    line-height: 26px;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: 800;
+    
+}
+
+.right-side{
+    display: flex;
+    margin: 0;
+    width: 65%;
+    height: 80vh;
+    background-image: url(./assets/PEP_BWP_D.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 0;
+    justify-content: flex-end;
+    align-items: flex-end;
+    z-index: 99;
+}
+
+.right-side img{
+    width: 50%;
+}
